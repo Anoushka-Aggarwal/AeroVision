@@ -2,8 +2,8 @@ import datetime
 
 # Video Path
 VIDEO_CONFIG = {
-	"VIDEO_CAP" : "video/run.mp4",
-	"IS_CAM" : False,
+	"VIDEO_CAP" : 1,
+	"IS_CAM" : True,
 	"CAM_APPROX_FPS": 3,
 	"HIGH_CAM": False,
 	"START_TIME": datetime.datetime(2020, 11, 5, 0, 0, 0, 0)
@@ -38,9 +38,9 @@ SOCIAL_DISTANCE = 50
 # Check for abnormal crowd activity
 ABNORMAL_CHECK = True
 # Min number of people to check for abnormal
-ABNORMAL_MIN_PEOPLE = 5
+ABNORMAL_MIN_PEOPLE = 2
 # Abnormal energy level threshold
-ABNORMAL_ENERGY = 1866
+ABNORMAL_ENERGY = 1000
 # Abnormal activity ratio threhold
 ABNORMAL_THRESH = 0.66
 # Threshold for human detection minumun confindence
